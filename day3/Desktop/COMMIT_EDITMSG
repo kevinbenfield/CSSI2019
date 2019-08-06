@@ -1,0 +1,46 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# Explicit paths specified without -i nor -o; assuming --only paths...
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#   (use "git rm --cached <file>..." to unstage)
+#
+#	new file:   Alarm_Clock/README.md
+#	new file:   Alarm_Clock/index.html
+#	new file:   Alarm_Clock/script.js
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	../../CONTRIBUTING.md
+#	../../LICENSE
+#	../../README.md
+#	../../appEngine-DataStore/
+#	../../command-line/
+#	../../html-css/
+#	../APIs-starter-code/
+#	Banking_101/
+#	Color_Buttons/
+#	DOM_Quest/
+#	Dog_Walker/
+#	Error_Be_Gone/
+#	Extreme_Puppy_Generator/
+#	Frog_Hopper_DOMination/
+#	Gadget_Website/
+#	Loop_De_Loop/
+#	Magic-8-Ball/
+#	Recipe_Revealer/
+#	dorm-decor/
+#	../../python/
+#	../../../day/
+#	../../../day3/
+#	../../../day4/
+#	../../../day5/
+#	../../../hello.txt
+#	../../../index.html
+#	../../../style.css
+#	../../../view.html

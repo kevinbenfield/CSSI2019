@@ -1,0 +1,90 @@
+Python Lab
+100 points
+
+Jermaine Reid
+10:07 AM (Edited 10:33 AM)
+Convert each of the JavaScript functions in the attached script file to Python functions
+
+script.js
+Javascript
+Your work
+Assigned
+Files you add or create can be viewed and edited by your teacher
+Mark as done or attach work to turn in
+Private comments
+Class comments
+Python Lab
+//Task 1: The function Greetings() takes one string input. It displays the 
+//message ``Hello, NAME'' where NAME is the string input
+function Greetings(name)
+{
+	console.log("Hello, ",name);
+}
+
+//Task 2: The function Echo() takes no inputs. It prompts the user to enter a 
+//string; and then is displays the user's input twice
+function Echo()
+{
+	let msg = prompt("Enter a string: ");
+	console.log(msg + "\n" + msg);
+}
+
+//Task 3: The function FizzBuzz() takes a integer input. It displays ``Fizz''
+//if the input is a multiple of 3, ``Buzz'' if the input is a multiple of 5, 
+//``FizzBuzz'' if the input is a multiple of both 3 and 5; otherwise, it 
+//displays the input
+function FizzBuzz(num)
+{
+	if(num % 3 == 0 && num % 5 == 0)
+	{
+		console.log('FizzBuzz');
+	}
+	else if(num % 3 == 0) 
+	{
+		console.log('Fizz');
+	}
+	else if(num % 5 == 0)
+	{
+		console.log('Buzz');
+	}
+	else
+	{
+		console.log(num);
+	}
+}
+
+//Task 4: The function GuessMyNumber() takes no inputs. It prompts the user 
+//to guess a number between 1 to 100 continually until the user guesses the
+//correct number. Afterwards, it states how many guesses the user made
+function GuessMyNumber()
+{
+	let count = 1;
+	let number = 67;
+	
+	while(true)
+	{
+		let guess = Number(prompt("Guess the number I an thinking of that is between 1 and 100: "));
+		
+		if(!isNaN(guess))
+		{
+			if(guess == number)
+			{
+				console.log("Congrats! You got it in", count, " guess(es)");
+				break; //This statement terminates a loop prematurely
+			}
+			
+			count += 1;
+		}
+	}
+}
+
+//Task 5: The function Initialize() takes an array and an integer as inputs named 
+//a and n respectively. It intializes a to a size of n and assigns 0 to all its 
+//elements
+function Initialize(a,n)
+{
+	for(let i = 0;i < n;i += 1)
+	{
+		a.push(0);
+	}
+}
