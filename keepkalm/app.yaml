@@ -6,6 +6,9 @@ handlers:
 - url: /styles
   static_dir: styles
 
+- url: /resources
+  static_dir: rain
+    
 - url: /scripts
   static_dir: scripts
 
@@ -15,3 +18,5 @@ handlers:
 libraries:
 - name: jinja2
   version: latest
+
+  
